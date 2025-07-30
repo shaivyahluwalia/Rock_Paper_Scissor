@@ -1,0 +1,79 @@
+
+*{  margin:0px 0px 0px 0px ;
+    background-image: url("background.jpg");
+    background-size: contain;
+}
+
+.main_box{
+    margin-top: 5vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+.heading{
+    margin-top: 5vh;
+    width: 100%;
+    height: 15vh;
+    font-size: 10vh;
+    text-align: center;
+    color: #964B00;
+}
+
+#Rock{
+    background-image: url("rock.jpeg");
+    background-size: cover;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#Paper{
+    background-image: url("paper.jpeg");
+    background-size: cover;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+#Scissor{
+    background-image: url("scissor.jpeg");
+    background-size: cover;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+}
+
+#Reset-btn{
+    margin-bottom: 2vh;
+    height: 100%;
+    width: 30vh ;
+    margin-top: 10vh;
+    margin-left:43%;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    background-image: none;
+    background-color: #542e22;
+    color: #d7cdb0;
+}
+.border{
+   border: 0.1px solid transparent;
+}
+.border:hover{
+    border:4px solid black;
+    opacity: 75%;
+}
+#msg{
+    padding-top: 2vh;
+    height: 10vh;
+    text-align: center;
+    background-image: none;
+    background-color:#964B00;
+    font-size: 4vh;
+    color: aliceblue;
+}
